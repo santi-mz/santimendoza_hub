@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import SantiagoHub from './components/hub/SantiagoHub'
+import App from './App'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <SantiagoHub />
+    <App />
   </StrictMode>,
 )
