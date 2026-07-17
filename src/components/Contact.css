@@ -22,3 +22,16 @@
   gap: 1rem;
   margin-top: 2.25rem;
 }
+
+.contact__alt {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.contact__alt:hover {
+  color: var(--accent);
+}

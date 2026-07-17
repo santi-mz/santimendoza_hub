@@ -1,4 +1,4 @@
-import { profile } from "../data/profile";
+import { profile, social } from "../data/profile";
 import "./Footer.css";
 
 export default function Footer() {
@@ -6,7 +6,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="wrap footer__inner">
         <span>&copy; {new Date().getFullYear()} {profile.name}</span>
-        <span>{profile.location}</span>
+        <a href={social.github} target="_blank" rel="noopener noreferrer">
+          github.com/santi-mz
+        </a>
       </div>
     </footer>
   );

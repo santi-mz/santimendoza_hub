@@ -10,7 +10,7 @@ export default function Contact() {
 
         <h2 className="contact__title">Got something worth building?</h2>
         <p className="contact__text">
-          Write to me directly &mdash; I read everything that lands in that inbox.
+          Write to me directly &mdash; I read everything that lands in either inbox.
         </p>
 
         <div className="contact__actions">
@@ -23,6 +23,10 @@ export default function Contact() {
             LinkedIn
           </a>
         </div>
+
+        <a href={`mailto:${social.emailAlt}`} className="contact__alt">
+          or {social.emailAlt}
+        </a>
       </div>
     </section>
   );

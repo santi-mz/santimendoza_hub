@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hero__grid" aria-hidden="true" />
 
       <div className="hero__frame wrap">
-        <p className="hero__coord">SM / 00 &mdash; {profile.location}</p>
+        <p className="hero__coord">SM / 00 &mdash; INTRO</p>
 
         <h1 className="hero__title">
           {profile.name}

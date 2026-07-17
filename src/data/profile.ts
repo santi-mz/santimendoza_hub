@@ -16,15 +16,15 @@ export const profile = {
   role: "Backend Engineer",
   tagline: "APIs, systems, and small tools that solve a real problem for someone.",
   bio: "I write backend systems and the tools around them \u2014 APIs, small libraries, the occasional Android app. Most of what's below started as something I needed and kept because it turned out useful. Off-screen: video games, ping pong, and more push-ups than my back asks for.",
-  location: "Bogot\u00e1, Colombia",
   cvUrl: "/cv.pdf",
   skills: ["Java", "Rust", "C#", "Android", "Backend", "API Design"],
 };
 
 export const social = {
-  github: "https://github.com/pro0072006",
+  github: "https://github.com/santi-mz",
   linkedin: "https://linkedin.com/in/david-santiago-mendoza-yasno",
   email: "santiagoyasno@gmail.com",
+  emailAlt: "santiagoyasno@santimendoza.com",
 };
 
 export const projects: Project[] = [
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     description: "Android app that walks high schoolers through common math operations, step by step.",
     tech: ["Android", "Java"],
     category: "mobile",
-    repo: "https://github.com/pro0072006/matema",
+    repo: "https://github.com/santi-mz/matema",
     live: "https://play.google.com/store/apps/details?id=com.matema",
     liveLabel: "Play Store",
   },
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     description: "Desktop app for solving matrix operations and systems of equations.",
     tech: ["Java", "Desktop"],
     category: "desktop",
-    repo: "https://github.com/pro0072006/matrixma",
+    repo: "https://github.com/santi-mz/matrixma",
   },
   {
     id: "apodoguest",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     description: "Console number-guessing game with a handful of extra rules to keep it interesting.",
     tech: ["C#", "Console"],
     category: "game",
-    repo: "https://github.com/pro0072006/apodoguest",
+    repo: "https://github.com/santi-mz/apodoguest",
   },
   {
     id: "musicmatchapi",
@@ -60,7 +60,7 @@ export const projects: Project[] = [
     description: "Node library wrapping the Musixmatch API for track info and lyrics.",
     tech: ["Node.js", "API"],
     category: "library",
-    repo: "https://github.com/pro0072006/musicmatch",
+    repo: "https://github.com/santi-mz/musicmatch",
     live: "https://www.npmjs.com/package/musicmatch",
     liveLabel: "npm",
   },
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     description: "C# library for fetching song lyrics from a single call.",
     tech: ["C#", "Library"],
     category: "library",
-    repo: "https://github.com/pro0072006/musiclyrics",
+    repo: "https://github.com/santi-mz/musiclyrics",
     live: "https://www.nuget.org/packages/musiclyrics",
     liveLabel: "NuGet",
   },
@@ -80,6 +80,6 @@ export const projects: Project[] = [
     description: "Where snippets, half-finished ideas, and test code go to live.",
     tech: ["Various"],
     category: "misc",
-    repo: "https://github.com/pro0072006/junkcode",
+    repo: "https://github.com/santi-mz/junkcode",
   },
 ];
