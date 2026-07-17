@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0b0e12"/>
+  <path d="M5 17V5H17" stroke="#c98a4b" stroke-width="2.5" fill="none" stroke-linecap="square"/>
+  <path d="M47 5H59V17" stroke="#c98a4b" stroke-width="2.5" fill="none" stroke-linecap="square"/>
+  <path d="M59 47V59H47" stroke="#c98a4b" stroke-width="2.5" fill="none" stroke-linecap="square"/>
+  <path d="M17 59H5V47" stroke="#c98a4b" stroke-width="2.5" fill="none" stroke-linecap="square"/>
+  <text x="32" y="40" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="21" font-weight="600" fill="#e4e7eb" text-anchor="middle">SM</text>
+</svg>
